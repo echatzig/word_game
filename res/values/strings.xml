@@ -1,0 +1,16 @@
+<resources>
+
+    <string name="app_name">word game</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="listbox1">one</string>
+    <string name="listbox2">two</string>
+    <string name="listbox3">three</string>
+    <string name="listbox4">four</string>
+    <string name="listbox5">five</string>
+    <string name="listbox6">six</string>
+    <string name="listbox7">seven</string>
+    <string name="title_activity_main2">MainActivity</string>
+
+</resources>

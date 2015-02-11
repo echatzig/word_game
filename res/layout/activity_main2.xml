@@ -1,0 +1,31 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent" >
+
+    <com.example.elias.BackgroundLabel
+        android:id="@+id/top_bkLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp" 
+        android:layout_alignParentTop="true" 
+ />
+    
+    <com.example.elias.BoardView
+        android:id="@+id/boardView1"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_below="@+id/top_bkLabel"
+     android:layout_above="@+id/bottom_bkLabel2"
+     android:layout_alignWithParentIfMissing="false"
+     android:layout_centerVertical="false"
+ />
+
+    <com.example.elias.BackgroundLabel
+        android:id="@+id/bottom_bkLabel2"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp" 
+        android:layout_alignParentBottom="true" 
+ />
+
+ 
+
+</RelativeLayout>
